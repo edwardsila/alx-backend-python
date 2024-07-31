@@ -9,6 +9,8 @@ from unittest import TestCase
 from unittest.mock import patch
 from parameterized import parameterized
 import requests
+import unittest
+
 
 class TestAccessNestedMap(TestCase):
     """ class that holds the test """
